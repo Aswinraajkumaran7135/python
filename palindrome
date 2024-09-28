@@ -1,0 +1,11 @@
+n=int(input("Enter the number:")) #user give input
+tem=n #its store tempvarily
+a=0
+while n>0:
+    rem=n%10 #its take remainder value[121] = 1 
+    a=(a*10)+rem #(0*10)+1=1
+    n=n//10
+if tem==a:
+    print("Its palindrome")
+else:
+    print("Its not palindrome")
