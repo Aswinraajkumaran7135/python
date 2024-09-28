@@ -1,7 +1,6 @@
-num=int(input("Enter the number:"))
-reverse=int(str(num)[::-1])# There is simple trick [::-1]->Its reverse string
+num=input("Enter the words:")
+reverse=num[::-1]# There is simple trick [::-1]->Its reverse string
 if(reverse==num):              # first they change int into the string reverse it and 
     print("Its palindrome")     #come integer in reverse.
 else:
     print("Its not palindrome")
-
