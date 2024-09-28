@@ -1,11 +1,7 @@
-n=int(input("Enter the number:")) #user give input
-tem=n #its store tempvarily
-a=0
-while n>0:
-    rem=n%10 #its take remainder value[121] = 1 
-    a=(a*10)+rem #(0*10)+1=1
-    n=n//10
-if tem==a:
-    print("Its palindrome")
+num=int(input("Enter the number:"))
+reverse=int(str(num)[::-1])# There is simple trick [::-1]->Its reverse string
+if(reverse==num):              # first they change int into the string reverse it and 
+    print("Its palindrome")     #come integer in reverse.
 else:
     print("Its not palindrome")
+
