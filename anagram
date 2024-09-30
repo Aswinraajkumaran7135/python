@@ -1,0 +1,13 @@
+# example: arc = car
+            Aswin=winAS
+def aswin(s1,s2):
+    if(sorted(s1)==sorted(s2)):
+        print(s1)
+        print(s2)
+        print("Its is anagram")
+    else:
+        print("Its not anagram")
+
+s1=input("Enter words one: ")
+s2=input("Enter words two: ")
+aswin(s1,s2)
