@@ -1,0 +1,3 @@
+import math
+print("Factorial of given number:",end="")
+print(math.factorial(int(input())))
