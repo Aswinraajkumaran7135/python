@@ -1,0 +1,9 @@
+def aswin(a,b):
+    if a>=b:
+        print(a,"Is maximum")
+    else:
+        print(b,"Is maximum")
+a=int(input("Enter the number a:"))
+b=int(input("Enter the number b:"))
+print(aswin(a,b))
+    
