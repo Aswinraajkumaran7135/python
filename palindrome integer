@@ -1,0 +1,6 @@
+a=int(input())
+reverse=int(str(a)[::-1])
+if reverse==a:
+    print("Its palindrome")
+else:
+    print("Its not palindrome")
