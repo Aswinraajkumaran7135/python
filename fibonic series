@@ -1,0 +1,9 @@
+#fibonic series = 0+1+1+2+3+5+8+13
+a=int(input("Enter The number:"))
+first=0
+second=1
+for i in range(a):
+    print(first)
+    temp=first
+    first=second
+    second=temp+second
